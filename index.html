@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design Tutorial</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+    <header>
+      <div class="user">
+        <img src="images/pic.jpg" alt="" />
+        <h3 class="name">Tivan Arnaz</h3>
+        <p class="post">Game Developer</p>
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#qualification">Qualification</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'M <span>Tivan Arnaz</span></h1>
+      <p>
+        I have worked with an IT company for almost 4 years experience. Working
+        as a desktop engineer responsible for managing servers like maintaining
+        server hardware, installing Windows OS Server, client custom software,
+        and managing Oracle databases.
+      </p>
+      <p>
+        Currently, I focus on game development using Unity 3D game engine and
+        Blender 3D modeling. I have a lot of programming skills, especially game
+        development, mobile app development (Android Java), web development
+        (HTML/CSS, Javascript, PHP), and desktop apps(Java, C#, and C++).
+      </p>
+      <a href="#about">
+        <button class="btn">About Me <i class="fas fa-user"></i></button>
+      </a>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> Me</h1>
+      <div class="row">
+        <div class="info">
+          <h3><span> Name : </span> Tivan Arnaz</h3>
+          <h3><span> Age : </span> 42</h3>
+          <h3><span> Qualification : </span> Bachelor Degree</h3>
+          <h3><span> Post : </span> Game Developer</h3>
+          <h3><span> Language : </span> Bahasa Indonesia</h3>
+          <a href="#">
+            <button
+              class="btn"
+              onclick="window.open('Curriculum Vitae Tivan Arnaz.pdf')"
+            >
+              Download CV <i class="fas fa-download"></i>
+            </button>
+          </a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>8+</span>
+            <h3>Years Of Experience As Game Developer</h3>
+          </div>
+
+          <div class="box">
+            <span>&#8776;4</span>
+            <h3>Years Of Experience As An IT Employee</h3>
+          </div>
+
+          <div class="box">
+            <span>20+</span>
+            <h3>Programming Language, API And Framework Learned</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- qualification section starts -->
+
+    <section class="qualification" id="qualification">
+      <h1 class="heading">My <span>Qualification</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2014 - Present</span>
+          <h3>Game Developer | Tivan Games</h3>
+          <p>
+            Responsible for developing independent games including programming,
+            designing, and creating art for games.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2006 - 2013</span>
+          <h3>S1 Sistem Informasi | STIKOM Surabaya (Universitas Dinamika)</h3>
+          <p>
+            Studying for an Information System Bachelor's Degree at STIKOM
+            Surabaya (Dinamika University)
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2005 - 2008</span>
+          <h3>Desktop Engineer | PT. Altelindo Karyamandiri</h3>
+          <p>
+            Working as a desktop engineer responsible for managing servers like
+            maintaining server hardware, installing Windows OS Server, client
+            custom software, and managing Oracle databases.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2005 - 2005</span>
+          <h3>Co-Assistant | STIKOM Surabaya (Universitas Dinamika)</h3>
+          <p>
+            Responsible for teaching at the university lab including Java
+            programming, Web Programming, etc.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2001 - 2003</span>
+          <h3>
+            D3 Manajemen Informatika | STIKOM Surabaya (Universitas Dinamika)
+          </h3>
+          <p>
+            Studying for Informatics Management Associate's Degree at STIKOM
+            Surabaya (Dinamika University)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- qualification section ends -->
+
+    <!-- portfolio section starts -->
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">My <span>Portfolio</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/img1.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="images/img2.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="images/img3.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="images/img4.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="images/img5.jpg" alt="" />
+        </div>
+
+        <div class="box">
+          <img src="images/img6.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Me</h1>
+
+      <div class="row">
+        <div class="content">
+          <h3 class="title">Contact Info</h3>
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> tumotok01@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> +628-175-005-265</h3>
+            <h3>
+              <i class="fab fa-linkedin"></i>
+              https://www.linkedin.com/in/tivanarnaz/
+            </h3>
+            <h3>
+              <i class="fas fa-map-marker-alt"></i> Surabaya, Indonesia - 60234
+            </h3>
+          </div>
+        </div>
+
+        <form
+          action="mailto:tumotok01@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <input type="text" name="name" placeholder="name" class="box" />
+          <input type="email" name="mail" placeholder="email" class="box" />
+          <input type="text" name="project" placeholder="project" class="box" />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            class="box message"
+            placeholder="message"
+          >
+          </textarea>
+          <button type="submit" class="btn">
+            Send <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- scroll top button-->
+
+    <a href="#home" class="top">
+      <img src="images/scroll-top-img.png" alt="" />
+    </a>
+
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
